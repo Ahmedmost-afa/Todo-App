@@ -1,42 +1,51 @@
-body{
-    margin :0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: black;
-    -webkit-background-color:black;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  -webkit-background-color: black;
 }
-h1,h2,h3,h4,h5{
-    padding:0;
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
 }
-.container{
-    width:900px;
-    height:1120px;
+.container {
+  width: 900px;
+  height: 1120px;
 }
-header{
-    position: absolute;
-    top:120px;
-    left:520px;
+header {
+  position: absolute;
+  top: 120px;
+  left: 520px;
 }
-header h1{
-    font-size:50px;
-    font-weight:bold;
-    margin-bottom:20px;
-    letter-spacing:.5em;
-    color:crimson;
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 0.5em;
+  color: crimson;
 }
-header #click{
-    width:212px;
-    padding:8px;
-    border-radius:5px;
+header #click {
+  width: 212px;
+  padding: 8px;
+  border-radius: 5px;
 }
-#add{
-    width: 232px;
-    padding: 5px;
-    background-color: white;
-    margin-top: 10px;
-    border-radius: 5px;
-    color: crimson;
-    font-weight: bold;
-    font-size: 20px;
+#add {
+  width: 232px;
+  padding: 5px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* to make it visible */
+.content {
+  color: white;
 }
